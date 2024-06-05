@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#map {
+    height: 80%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#divFiltro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#filterInput, #filterButton, #minDate, #maxDate {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#filterButton {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#filterButton:hover {
+    background-color: #45a049;
+}
+
+label {
+    margin: 5px;
+}
+
+input[type="date"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
